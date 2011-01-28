@@ -1,4 +1,7 @@
-@Grab(group='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.5.1')
+@Grapes([
+  @Grab(group='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.5.1')
+])
+
 import static groovyx.net.http.ContentType.JSON
 import groovyx.net.http.RESTClient
 
